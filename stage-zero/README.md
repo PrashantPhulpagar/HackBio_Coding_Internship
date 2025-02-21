@@ -1,4 +1,22 @@
-I started by creating a dictionary called personal_profile. This dictionary is where I'm going to keep all the information for the profile. I used key-value pairs to organize the data.  Each key is like a label (for example, "name", "email", "hobby"), and the value is the actual information itself.
-Then, I put all the profile details into the personal_profile dictionary. I added my name, Slack username, email, hobby, country, discipline, and preferred programming language.  So, for example, the key "name" has the value "Prashant Phulpagar", and the key "hobby" has the value "Playing Badminton".
-Next, I wanted to display this information nicely.  I used a bunch of print statements to do this.  To make the output look good, I used f-strings.  These let me put the values from the dictionary directly into the text I'm printing. So, print(f"Name: {personal_profile['name']}") takes the value associated with the "name" key and inserts it into the string.
-So, basically, I used a dictionary to store the data and then printed it out.
+## HackBio Biocoding Internship: Stage 0
+### Objective
+This task involved using the data structure of either R or Python to create a simple scripts in order to organise the names, slack usernames, emails, hobbies, countries, disciplines, and preferred programming languages of all the members in my team. As per the instructions given, this script excludes the use of functions, loops, conditionals, and complex concepts.
+
+Therefore, this repository contains a Python script which organises the details of myself in the HackBio internship (Coding for Bio) in a systematic manner.
+
+### Task Description
+For Stage 0, I was required to write a Python script that prints:
+
+✅ **Name**\
+✅ **Slack Username**\
+✅ **Email ID**\
+✅ **Hobby**\
+✅ **TCountry**\
+✅ **Discipline**\
+✅ **Preferred Programming Language**
+
+### Steps Followed
+1️⃣ **Set up the script** – Created a new Python file stage_zero_task.py\
+2️⃣ **Defined variables** – Assigned my details to different variables\
+3️⃣ **Used formatted printing** – Used an f-string to neatly display all the information\
+4️⃣ **Run the script** – Executed the Python file to verify the output

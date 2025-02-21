@@ -1,16 +1,18 @@
+# HackBio Biocoding Internship: Stage 1
+
 This folder contains four Python functions performing various biological and computational tasks:
 
-**Task 1.1: DNA to Protein Translation**
+   - **Task 1.1: DNA to Protein Translation**
 
-**Task 1.2: Logistic Population Growth Curve Simulation**
+   - **Task 1.2: Logistic Population Growth Curve Simulation**
 
-**Task 1.3: Time to Reach 80% of Maximum Growth Rate**
+   - **Task 1.3: Time to Reach 80% of Maximum Growth Rate**
 
-**Task 1.4: Hamming Distance Calculation**
+   - **Task 1.4: Hamming Distance Calculation**
 
 Each function is explained below in detail.
 
-**Task 1.1: DNA to Protein Translation**
+### **Task 1.1: DNA to Protein Translation**
 
 This function translates a given DNA sequence into a protein sequence based on the standard genetic codon table.
 
@@ -24,7 +26,7 @@ Each codon is translated into an amino acid and appended to the protein string.
 
 If an unknown codon appears, it is replaced with ?.
 
-**Task 1.2: Logistic Population Growth Curve Simulation**
+### **Task 1.2: Logistic Population Growth Curve Simulation**
 
 This function simulates bacterial population growth using the logistic growth model.
 
@@ -40,7 +42,7 @@ The function iterates through the specified number of time_steps.
 
 The function returns a list of population values over time.
 
-**Task 1.3: Time to Reach 80% of Maximum Growth Rate**
+### **Task 1.3: Time to Reach 80% of Maximum Growth Rate**
 
 This function determines the time when a growing bacterial population reaches 80% of its peak growth rate.
 
@@ -50,7 +52,7 @@ The maximum growth rate occurs at K/2 (half the carrying capacity).
 
 It finds the first time point where the growth rate reaches 80% of the maximum.
 
-**Task 1.4: Hamming Distance Calculation**
+### **Task 1.4: Hamming Distance Calculation**
 
 This function calculates the Hamming distance between two strings, which is the number of positions where they differ.
 

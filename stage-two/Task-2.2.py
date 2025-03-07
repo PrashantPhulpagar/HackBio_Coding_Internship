@@ -1,17 +1,13 @@
-# Upload Files
-from google.colab import files
-
-# Upload both files (Manually select them when prompted)
-uploaded = files.upload()
-
 # Load the Excel files
 import pandas as pd
 
 # Load SIFT dataset
-sift_df = pd.read_excel("SIFT.xlsx")
+url = "https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/Python/Dataset/Pesticide_treatment_data.txt"
+sift_df = pd.read_csv(url, sep="\t")
 
 # Load FoldX dataset
-foldx_df = pd.read_excel("FoldX.xlsx")
+url = "https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/Python/Dataset/Pesticide_treatment_data.txt"
+foldx_df = pd.read_csv(url, sep="\t")
 
 # Check the first few rows
 print("\n🔹 SIFT Dataset Preview:")

@@ -4,13 +4,13 @@ This repository contains my solutions to various bioinformatics and data science
 
 ## Table of Contents
 
-* Task Code 2.3: Botany and Plant Science
+* Task Code 2.1: Botany and Plant Science
 
-* Task Code 2.4: Biochemistry & Oncology
+* Task Code 2.2: Biochemistry & Oncology
 
-* Task Code 2.6: Transcriptomics
+* Task Code 2.3: Transcriptomics
 
-* Task Code 2.7: Public Health
+* Task Code 2.4: Public Health
 
 
 ## Task Code 2.1: Botany and Plant Science

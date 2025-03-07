@@ -19,7 +19,7 @@ This repository contains my solutions to various bioinformatics and data science
 
 Analyze the metabolic response of engineered mutant crops and wild-type plants under different treatments to assess pesticide resistance.
 
-### Tasks:
+### Steps:
 
 - Calculate the difference in metabolic response (ΔM) between the DMSO treatment and the 24-hour treatment.
 
@@ -37,7 +37,7 @@ Analyze the metabolic response of engineered mutant crops and wild-type plants u
 
 Analyze the impact of non-synonymous nonsense mutations on protein structure and function using SIFT and FoldX datasets.
 
-### Tasks:
+### Steps:
 
 - Merge SIFT and FoldX datasets based on concatenated Protein and Amino Acid information.
 
@@ -55,7 +55,7 @@ Analyze the impact of non-synonymous nonsense mutations on protein structure and
 
 Analyze RNA-seq data to study differential gene expression between a diseased cell line and a compound-treated diseased cell line.
 
-### Tasks:
+### Steps:
 
 - Generate a volcano plot for differential gene expression.
 
@@ -71,7 +71,7 @@ Analyze RNA-seq data to study differential gene expression between a diseased ce
 
 Analyze NHANES data to assess the health and nutritional status of participants.
 
-### Tasks:
+### Steps:
 
 - Process missing values.
 

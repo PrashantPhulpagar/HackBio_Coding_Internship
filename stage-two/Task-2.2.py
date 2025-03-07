@@ -2,12 +2,14 @@
 import pandas as pd
 
 # Load SIFT dataset
-url = "https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/Python/Dataset/Pesticide_treatment_data.txt"
-sift_df = pd.read_csv(url, sep="\t")
+url = "https://raw.githubusercontent.com/PrashantPhulpagar/HackBio_Coding_Internship/main/stage-two/SIFT.xlsx"
+# Read Excel file (use engine="openpyxl" for .xlsx files)
+sift_df = pd.read_excel(url, engine="openpyxl")
 
 # Load FoldX dataset
-url = "https://raw.githubusercontent.com/HackBio-Internship/2025_project_collection/refs/heads/main/Python/Dataset/Pesticide_treatment_data.txt"
-foldx_df = pd.read_csv(url, sep="\t")
+url = "https://raw.githubusercontent.com/PrashantPhulpagar/HackBio_Coding_Internship/main/stage-two/FoldX.xlsx"
+# Read Excel file (use engine="openpyxl" for .xlsx files)
+foldx_df = pd.read_excel(url, engine="openpyxl")
 
 # Check the first few rows
 print("\n🔹 SIFT Dataset Preview:")

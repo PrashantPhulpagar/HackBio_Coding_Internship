@@ -1,6 +1,6 @@
 # 🚀 HackBio Coding Internship  
 
-Welcome to the **HackBio Coding Internship** repository! This repository contains projects and assignments from the **HackBio Internship Program**, which focuses on **coding, bioinformatics, and data analysis** in the life sciences.  
+Welcome to the **HackBio Coding Internship** repository! This repository contains projects and assignments from the **[HackBio Internship Program](https://thehackbio.com/)**, which focuses on **coding, bioinformatics, and data analysis** in the life sciences.  
 
 ## 📌 About the Internship  
 The **HackBio Internship** is designed to equip participants with:  

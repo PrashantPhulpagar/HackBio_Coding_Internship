@@ -1,6 +1,6 @@
 # HackBio Biocoding Internship: Stage 1
 
-This folder contains four Python functions performing various biological and computational tasks:
+This folder contains my solutions to four tasks describing four Python functions performing various biological and computational tasks:
 
    - **Task 1.1: DNA to Protein Translation**
 
@@ -30,13 +30,19 @@ If an unknown codon appears, it is replaced with ?.
 
 This function simulates bacterial population growth using the logistic growth model.
 
+$$
+P(t) = \frac{K}{1 + \frac{(K - P_0)}{P_0} e^{-rt}}
+$$
+
+where:  
+- \( P(t) \) = Population at time \( t \)  
+- \( K \) = Carrying capacity (maximum population the environment can support)  
+- \( P0 \) = Initial population (at \( t = 0 \))  
+- \( r \) = Growth rate  
+- \( e \) = Euler's number (approximately 2.718)  
+- \( t \) = Time  
+
 The function simulate_logistic_growth(P0, r, K, time_steps) models a population's growth.
-
-P0 = Initial population.
-
-r = Growth rate.
-
-K = Carrying capacity (maximum sustainable population).
 
 The function iterates through the specified number of time_steps.
 
